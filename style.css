@@ -1,0 +1,147 @@
+body {
+  background-color: #272822;
+  color: #f8f8f2;
+  font-family: 'Courier New', monospace;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#searchResults {
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+#right-div {
+margin-left: 5%;
+}
+.search-container { 
+  text-align: center; 
+  margin-top: 20px; 
+  } 
+.search-input { 
+  padding: 8px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  width: 300px; 
+  max-width: 100%; 
+  } 
+.search-button { 
+  padding: 8px 16px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 4px; 
+  background-color: #4CAF50; 
+  color: #fff; 
+  cursor: pointer; 
+  }
+h2 {
+  color: #f92672;
+}
+
+p {
+  color: #f8f8f2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#result {
+  padding: 20px;
+  background-color: #383830;
+  border-radius: 5px;
+}
+
+/*
+body {
+  background-color: #232d4e;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+}
+
+h2 {
+  color: #61dafb;
+}
+
+p {
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#result {
+  padding: 20px;
+  background-color: #3a506b;
+  border-radius: 5px;
+}
+*/
+/* Style for the search form */
+/* CSS code for the search bar */
+#searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+}
+
+#searchInput::placeholder {
+  color: #aaa;
+}
+
+#searchInput:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  background-color: #888;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #666;
+}
+
+
+/* Style for the search results */
+#searchResults {
+  margin-top: 20px;
+}
+
+#searchResults h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#searchResults p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#searchResults img {
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
